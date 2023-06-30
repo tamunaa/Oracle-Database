@@ -18,7 +18,6 @@ AND (mod(to_number(menmen.salary), 17) = 0);
 
 
 #2
-
 select 
 (e.first_name || ' ' || e.last_name) as "full_name",
 to_char(e.salary,'fm$999,999,999.00') as salary,
